@@ -30,6 +30,6 @@ public class Main
 }
 ```
   Public void “Input” is the main entrance of the program. This is the void that will start when the plugin is activated from CellTool menu Plugins and here you must add your code. This void has two arguments - TifFileInfo fi and Transmiter t. TifFileInfo fi contains the data from the active image. The transmitter t is used to send back information to CellTool. The command “t.ReloadImage()” can be used to send the modified version of the image back to CellTool.
-  To install the plugin start the “CellTool.exe” as administrator and press install button in the PlugIns menu. Browse to your assembly and press the “OK” button.
+  To install the plugin, start the “CellTool.exe” as administrator and press install button in the PlugIns menu. Browse to your assembly and press the “OK” button.
   
   Example plugin is avaliable [here](https://github.com/GDanovski/Di-anepp).
