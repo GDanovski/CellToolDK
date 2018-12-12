@@ -110,6 +110,16 @@ using System.Drawing;
                 }
             }
         }
+        public void Delete()
+        {
+            TrackingLocation = null; //use for oval and rectangle - tracking
+            StaticLocation = null;//use for oval and rectangle - static
+            TrackingBorderPoints = null; //use for polygon and freehand - tracking
+            StaticBorderPoints = null; //use for polygon and freehand - static
+            colors = null;
+            ChartUseIndex = null;
+            expanded = null;
+        }
         #region Properties
         public int getID
         {

@@ -121,6 +121,21 @@ namespace CellToolDK
         {
             image8bit = null;
             image16bit = null;
+            image8bitFilter = null;
+            image16bitFilter = null;
+            histogramArray = null;
+            MinBrightness = null;
+            MaxBrightness = null;
+            adjustedLUT = null;
+            if (roiList != null)
+                foreach (var rL in roiList)
+                    if (rL != null)
+                        for (int i = rL.Count - 1; i >= 0; i--)
+                        {
+                            rL[i].Delete();
+                            rL[i] = null;
+                        }
+            roiList = null;
             History.Clear();
         }
         public string toString()
