@@ -127,6 +127,7 @@ namespace CellToolDK
             MinBrightness = null;
             MaxBrightness = null;
             adjustedLUT = null;
+
             if (roiList != null)
                 foreach (var rL in roiList)
                     if (rL != null)

@@ -119,6 +119,7 @@ using System.Drawing;
             colors = null;
             ChartUseIndex = null;
             expanded = null;
+
         }
         #region Properties
         public int getID
