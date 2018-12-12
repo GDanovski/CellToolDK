@@ -1,7 +1,7 @@
 # CellToolDK
 **CellTool Development Kit**
 
-  CellToolDK is software package that can be used for development of new plugins for [**CellTool**](https://dnarepair.bas.bg/software/CellTool/). It can be build from source code by using Visual Studio 2017.
+  CellToolDK is software package that can be used for development of new plugins for [**CellTool**](https://dnarepair.bas.bg/software/CellTool/). It can be build from source code by using Visual Studio 2017. The binary is avaliable [here](https://dnarepair.bas.bg/software/CellTool/Program/CellToolDK.dll).
 
 **How to develop your first plugin:**
 
